@@ -1,0 +1,37 @@
+/* app.component.css */
+:host {
+    display: block;
+  }
+  
+  .navbar {
+    background-color: #000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  
+  .portfolio-title,
+  .welcome-message {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .welcome-message:hover {
+    color: #ccc;
+  }
+  
